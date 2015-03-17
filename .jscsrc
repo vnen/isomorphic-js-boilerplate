@@ -1,0 +1,27 @@
+{
+  "esnext": true,
+  "validateIndentation": 2,
+  "disallowEmptyBlocks": true,
+  "disallowKeywordsOnNewLine": ["else"],
+  "requireBlocksOnNewline": 1,
+  "requireCommaBeforeLineBreak": true,
+  "requireCurlyBraces": true,
+  "requireSpaceAfterBinaryOperators": true,
+  "requireSpaceAfterKeywords": true,
+  "requireSpaceBeforeKeywords": [
+    "else",
+    "while",
+    "catch"
+  ],
+  "disallowSpaceAfterObjectKeys": true,
+  "requireSpaceBeforeObjectValues": true,
+  "excludeFiles": [
+    "node_modules/**",
+    "coverage/**",
+    "scripts/**",
+		"public/js/app.js",
+    "lib/najax.js",
+    ".*/**",
+    "*.jsx"
+  ]
+}

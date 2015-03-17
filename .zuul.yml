@@ -1,0 +1,9 @@
+ui: mocha-bdd
+browsers:
+  - name: firefox
+    version: latest
+    firefox_profile:
+      network.http.prompt-temp-redirect: false
+browserify:
+  - transform: reactify
+html: ./test/zuul-template.html

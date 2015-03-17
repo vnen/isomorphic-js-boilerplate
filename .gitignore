@@ -1,0 +1,11 @@
+# Ignore dependencies
+/bower_components/
+/node_modules/
+
+# Ignore built files
+/public/js/app.js
+/coverage/
+
+# Ignore temp files
+*~
+/public/js/.app.js
