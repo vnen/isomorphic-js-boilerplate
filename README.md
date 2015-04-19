@@ -31,7 +31,7 @@ make test
 You can test in the browser with Zuul:
 
 ```shell
-make test
+make test-browser
 ```
 
 And open the url that will show up in the terminal.
